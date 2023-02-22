@@ -1,9 +1,7 @@
-# Investigating a Gulf Stream Frontal Eddy North of Cape Hatteras: Questioning Overall Impacts on Ecology
+# Investigating fine-scale biophysical dynamics on the Gulf Stream front: evidence for ageostrophic chlorophyll-a enhancement and 
+assessing unique communities across the front
 
 Authors:
-[Patrick C. Gray](https://orcid.org/0000-0002-8997-5255) Jessica Gronniger, Ivan Sayvelev, Julian Dale, Alexandria K. Niebergall, Nicolas Cassar, Anna E. Windle, Dana E. Hunt, Zackary Johnson, Marina Lévy, Chris Taylor, Guillaume Bourdin, Ashley Blawas, Amanda Lohmann, Greg Silsbe, David W. Johnston
-
-This is currently available on bioRxiv at: and is under review at the Journal of Geophysical Research: Oceans
 
 ***this repo currently involves code and data for two projects and is being split apart***
 
