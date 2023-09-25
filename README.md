@@ -1,9 +1,8 @@
-# Investigating fine-scale biophysical dynamics on the Gulf Stream front: evidence for ageostrophic chlorophyll-a enhancement and 
-assessing unique communities across the front
+# Evidence for kilometer-scale biophysical features at the Gulf Stream front
 
-Authors:
+Authors: Patrick Clifton Gray, Ivan Savelyev, Nicolas Cassar, Marina Levy, Emmanuel Boss, Yoav Lehahn, Guillaume Bourdin, Kate A. Thompson, Anna Windle, Jessica Gronniger, Sheri Floge, Dana E. Hunt, Greg Silsbe, Zackary I. Johnson, David W. Johnston
 
-***this repo currently involves code and data for two projects and is being split apart***
+This work is currently available on bioRxiv at: [link TBD] and is under review at the Journal of Geophysical Research: Oceans.
 
 ### Running the Notebook
 Once you have pulled the repo down locally via git and have Docker installed all code here can be run fully in Docker based on a prebuilt environment by running:
@@ -14,13 +13,18 @@ This will launch a Jupyter Lab instance that can run everything for you. This ca
 
 ## Plain Language Summary of this Work
 
-Frontal eddies are spinning masses of water (~30km in diameter) that move along western boundary currents like the Gulf Stream. When they form they carry productive coastal water into the Gulf Stream and drive upwelling within their cores. Together this leads to an increase in the amount of phytoplankton within them - much higher compared to surrounding nutrient-limited Gulf Stream water. On the east coast of the United States one common area of frontal eddy formation is just off Charleston, SC. Eddies then travel up the coast and dissipate near Cape Hatteras, NC. In this work we measured a wide range of physical and biological properties of a frontal eddy just north of Cape Hatteras. We compared these properties within the eddy to the coastal water on one side and the Gulf Stream water on the other, finding clear differences in phytoplankton community composition and other physical and chemical properties. Using the results of these observations together with previous studies we share a simple model for how frontal eddies may impact phytoplankton, zooplankton, and fish – hypothesizing that they may contribute to the high diversity and density of top predators off Cape Hatteras.
+Phytoplankton move with large currents and are stirred by eddies with diameters ranging from 100s of kilometers down to the meter scale. Their growth is impacted by physical factors like light and temperature and also chemical and biological factors like nutrient availability, and their accumulation is also impacted by top down controls (zooplankton grazing, viral lysis) and competition with other phytoplankton. This interplay of physics and biology in determining the biomass and composition of phytoplankton communities is poorly understood and is key to understanding marine ecosystem resilience and structure in a changing ocean. In this work we investigated the impact of physics and biology on phytoplankton across scales focusing on the Gulf Stream front. Fronts in the ocean are where lines of equal density go from being horizontal to having a vertical tile, and because of this can enable nutrients and plankton to move from depth to the surface and vice versa. The objective of this work is to understand how physics might drive important changes in phytoplankton biomass and composition in the Gulf Stream front, which is amongst the sharpest gradients in temperature, density, and current speed in the global ocean. We find two frequent processes at the front, the apparent subduction of cold filaments down along the edge of the Gulf Stream, associated with meander troughs, and obduction of high salinity Sargasso Sea water into the front linked to meander crests. While ephemeral, these processes are frequent and could have a large impact on local phytoplankton biomass, phytoplankton composition, and the export of organic matter to depth.
 
 ### The key points of this work are:
-- In-depth investigation of a frontal eddy in the Gulf Stream off Cape Hatteras, North Carolina
-- Continued physical and biogeochemical differences are observed between the eddy and adjacent water masses even as it begins to shear apart
-- A conceptual model is developed for the ecological impact of frontal eddies along with the hypothesis that they could supply zooplankton to secondary consumers
+-  The frontal zone between the Gulf Stream and the shelf has an interface water mass which appears to have different origins with a range of biogeochemical impacts.
+-  Meanders appear to largely control the frontal interface: troughs lead to subduction of shelf filaments and crests lead to obduction of high salinity water. 
+-  These two processes are common at the front and could lead to ephemeral kilometer-scale export and productivity.
 
+### Notebooks
+There are a number of notebooks that can be used to recreate this analysis along with the provided data: 
+- In primary_analysis.ipynb we do most of the work which analyzes all and combines nearly all the primary datasets and then visualizes all the transects and generates the supplemental figures.
+- In analyzing_aug_cruise.ipynb, analyzing_sept_cruise.ipynb, and analyzing_march_cruise.ipynb the individual crusie data from those three periods is visualized and the phytoplankton community composition figures are created.
+- In seasonality_analysis.ipynb the data is pulled in for the large scale analysis of seasonality on either side of the front in T and chl a.
 
 ### Citation
-TBD
+DOI TBD
