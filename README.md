@@ -1,5 +1,7 @@
 # Evidence for kilometer-scale biophysical features at the Gulf Stream front
 
+[![DOI](https://zenodo.org/badge/605290980.svg)](https://zenodo.org/badge/latestdoi/605290980)
+
 Authors: Patrick Clifton Gray, Ivan Savelyev, Nicolas Cassar, Marina Levy, Emmanuel Boss, Yoav Lehahn, Guillaume Bourdin, Kate A. Thompson, Anna Windle, Jessica Gronniger, Sheri Floge, Dana E. Hunt, Greg Silsbe, Zackary I. Johnson, David W. Johnston
 
 This work is currently available on bioRxiv at: [link TBD] and is under review at the Journal of Geophysical Research: Oceans.
@@ -29,4 +31,4 @@ There are a number of notebooks that can be used to recreate this analysis along
 - In seasonality_analysis.ipynb the data is pulled in for the large scale analysis of seasonality on either side of the front in T and chl a.
 
 ### Citation
-DOI TBD
+[https://doi.org/10.5281/zenodo.8377865](https://doi.org/10.5281/zenodo.8377865)
